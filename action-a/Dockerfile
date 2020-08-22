@@ -1,4 +1,4 @@
-FROM debian:9.5-slim
+FROM python
 
 ADD main.py /main.py
 RUN chmod +x /main.py
